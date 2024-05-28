@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  9myntraclone:
+    image: 9myntraclone
+    build:
+      context: .
+      dockerfile: ./Dockerfile
